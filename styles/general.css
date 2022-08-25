@@ -1,0 +1,186 @@
+﻿<!--General Syle Declarations-->
+empty{
+
+    }
+
+html{
+    font-family: cursive;
+    font-size: 16px;
+    color: #1D5171;
+}
+
+body {
+    background-image: url('../media/pozas.jpg');
+    border-color: black;
+    background-color: white;
+    text-align: center;
+
+}
+
+nav{
+    margin-left: 150px;
+    margin-right: 100px;
+    border: 1px solid;
+    border-radius: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    position: sticky;
+    top: 10px;
+    background-color: #5c8dd9;
+}
+
+nav>a{
+    margin: 10px;
+    border: 1px solid;
+    border-radius: 10px;
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-decoration: none;
+    color: #1D5171;
+    background-color: #65CBDA;
+}
+
+nav>a:active{
+    background-color: #04AA6D;
+    color: white;
+}
+
+nav>a:hover{
+    background-color: #ddd;
+    color: black;
+}
+
+h1,h2,h3{
+    margin: 10px;
+    border: 1px solid;
+    border-radius: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.h-color{
+    color: #1D5171;
+    background-color: #DFCE9D;
+}
+
+div{
+    margin: 10px;
+    border: 1px solid;
+    border-radius: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: coral;
+}
+
+table, th, td {
+    padding: 10px;
+    text-align: left;
+    border: 3px solid;
+    border-color: #333;
+}
+
+table {
+    margin: 20px;
+    border-radius: 10px;
+    background-color: #C2B280;
+    border: 0px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+td{
+    font-size: 18px;
+}
+
+th{
+    font-size: 24px;
+}
+
+p{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 10px;
+    background-color: #C2B280;
+}
+
+img{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+hr{
+    margin: 10px;
+    border: 1px solid;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+ul{
+    margin: 10px;
+    border: 1px solid;
+    padding-left: 40px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+}
+
+li{
+    text-align: left;
+    margin: 10px;
+    border: 1px solid;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: fuchsia;
+
+}
+
+nav>button{
+    margin: 10px;
+    border: 1px solid;
+    border-radius: 10px;
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: black;
+    background-color: #65CBDA;
+
+}
+nav>button:active{
+    background-color: #04AA6D;
+    color: white;
+
+}
+
+nav>button:hover{
+    background-color: #ddd;
+    color: black;
+}
+
+.transparent{
+    background-color: transparent;
+    border: 0px;
+}
+
+.round30{
+    border-radius: 30px;
+}
+
+.round10{
+        border-radius: 10px;
+}
