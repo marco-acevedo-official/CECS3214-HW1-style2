@@ -1,0 +1,367 @@
+/*General Styles Sheet for rounded corners and lots of colors*/
+
+    /* DEFAULT: Defining font, size and color of font */
+    html{
+        font-size: 16px;
+    }
+    
+        /* DEFAULT: Background image,border color, background color, align center  */
+    body {
+        border-color: white;
+        color: black;
+        background-color: rgb(63, 63, 63);
+    }
+    
+        /* DEFAULT: Definign top navigation menu style */
+    nav{
+        margin-left: 0px;
+        margin-right: 0px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    
+        border-left: 0px solid;
+        border-right: 0px solid;
+        border-top: 0px solid;
+        border-bottom: 0px solid;
+    
+        padding-top: 14px;
+        padding-bottom: 14px;
+        padding-left: 14px;
+        padding-right: 14px;
+
+        overflow: hidden;
+    
+        position: sticky;
+        top: 0px;
+        background-color: #333;
+    }
+    /* DEFAULT: <a> that are child of <nav> */
+    /* internal link to other html files */
+    nav>a{
+        color: white;
+
+        margin-left: 0px;
+        margin-right:10px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    
+        border-left: 0px solid;
+        border-right: 0px solid;
+        border-top: 0px solid;
+        border-bottom: 0px solid;
+    
+        padding-top: 14px;
+        padding-bottom: 14px;
+        padding-left: 14px;
+        padding-right: 14px;
+        font-size: 17px;
+        text-align: center;
+        text-decoration: none;
+    }
+    
+    /* DEFAULT: background color*/
+    nav>a:active{
+        background-color: #04AA6D;
+    }
+    
+    /* DEFAULT: back and front colors*/
+    nav>a:hover{
+        background-color: #ddd;
+        color: black;
+    }
+    
+    /* DEFAULT: box dimensions*/
+    h1,h2,h3{
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    
+        border-left: 0px solid;
+        border-right: 0px solid;
+        border-top: 0px solid;
+        border-bottom: 0px solid;
+    
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    
+    /* DEFAULT: box & background color*/
+    div{
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    
+        border-left: 0px solid;
+        border-right: 0px solid;
+        border-top: 0px solid;
+        border-bottom: 0px solid;
+    
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    
+        background-color: rgb(255, 68, 0);
+    }
+    
+    /* DEFAULT: */
+    table, th, td {
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    
+        border-left: 0px solid;
+        border-right: 0px solid;
+        border-top: 0px solid;
+        border-bottom: 0px solid;
+    
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    
+        text-align: left;
+    }
+    
+    /* DEFAULT: */
+    table {
+        background-color: rgb(128, 128, 128);
+    }
+    
+    /* DEFAULT: */
+    td{
+        font-size: 18px;
+    }
+    
+    /* DEFAULT: */
+    th{
+        font-size: 24px;
+    }
+    
+    /* DEFAULT: */
+    p{
+        font-size: 1.1rem;
+    
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    
+        border-left: 0px solid;
+        border-right: 0px solid;
+        border-top: 0px solid;
+        border-bottom: 0px solid;
+    
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+
+        background-color: rgb(128, 128, 128);
+    }
+    
+    /* DEFAULT: */
+    img{
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    
+        border-left: 0px solid;
+        border-right: 0px solid;
+        border-top: 0px solid;
+        border-bottom: 0px solid;
+    
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    
+    /* DEFAULT: */
+    hr{
+        margin: 10px;
+        border: 1px solid;
+        padding: 10px;
+        border-radius: 10px;
+    }
+    
+    /* DEFAULT: */
+    ul{
+        font-size: 1rem;
+    
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    
+        border-left: 1px solid;
+        border-right: 1px solid;
+        border-top: 1px solid;
+        border-bottom: 1px solid;
+    
+        border-radius: 10px;
+    
+        padding-left: 40px;
+        padding-right: 10px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    
+    }
+    
+    /* DEFAULT: */
+    li{
+        text-align: left;
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    
+        border-left: 1px solid;
+        border-right: 1px solid;
+        border-top: 1px solid;
+        border-bottom: 1px solid;
+    
+        padding: 10px;
+        border-radius: 10px;
+        background-color: rgb(145, 114, 114);
+    }
+    
+    /* DEFAULT: */
+    nav>button{
+        margin: 10px;
+        border: 1px solid;
+        border-radius: 10px;
+        text-align: center;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        color: black;
+        background-color: #65CBDA;
+    }
+    
+    /* DEFAULT: */
+    nav>button:active{
+        background-color: #04AA6D;
+        color: white;
+    }
+    
+    
+    /* DEFAULT: */
+    nav>button:hover{
+        background-color: #ddd;
+        color: black;
+    }
+    
+    /* CLASS: */
+    .h-color{
+        color: #1D5171;
+        background-color: #DFCE9D;
+    }
+    
+    /* CLASS: */
+    .transparent{
+        background-color: transparent;
+        border: 0px solid;
+    }
+    
+    /* CLASS: */
+    .round30{
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    
+        border-left: 0px solid;
+        border-right: 0px solid;
+        border-top: 0px solid;
+        border-bottom: 0px solid;
+    
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    
+    /* CLASS: */
+    .round10{
+
+    }
+    
+    .nice{
+        object-fit: contain;
+        max-width: 100%;
+        height: auto;
+    }
+    
+    .glow {
+        overflow: hidden;
+        color: black;
+        background-color: rgb(150, 150, 150);
+        padding: 10px;
+        text-decoration: none;
+    
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    
+        border-left: 1px solid;
+        border-right: 1px solid;
+        border-top: 1px solid;
+        border-bottom: 1px solid;
+    
+        border-radius: 10px;
+    
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    
+    }
+    
+    a.glow:hover{
+        background-color: rgb(76, 33, 146);
+        color: rgb(0, 0, 0);
+    }
+    .title{
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    
+        border-left: 0px solid;
+        border-right: 0px solid;
+        border-top: 0px solid;
+        border-bottom: 0px solid;
+    
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    
+    .subtitle{
+        color: blue;
+        background-color: #c3fbf9;
+    }
+    
+    .intrasub{
+        color: black;
+        background-color: rgb(128, 128, 128);
+    }
+    
+    .YTwindow{
+        object-fit: contain;
+        width: 400px;
+    }
+
+    .m0{
+        margin: 0px;
+    }

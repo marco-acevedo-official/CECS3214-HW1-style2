@@ -5,26 +5,31 @@
 <head>
     <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Marco Acevedo</title>
-    <link id="theme1" rel="stylesheet" href="./styles/general.css">
+    <link id="pagestyle" rel="stylesheet" href="./styles/style2.css">
+    <script>
+    function swap(sheet){
+        document.getElementByID('pagestyle').setAttribute('href',sheet);
+    }
+    </script>
+
 </head>
 
-<body>
+<body class="m0">
     <!-- Navigation Menu -->
     <nav>
         <a href="index.html">Home</a>
         <a href="./content/projects.html">Projects</a>
         <a href="./content/about.html">About</a>
         <a href="./content/contact.html">Contact</a>
+        <button onclick="swap('./styles/style1.css')">Switch Style1</button>
+        <button onclick="swap('./styles/style2.css')">Switch Style2</button>
     </nav>
     <!-- Navigation Menu -->
         <br />
-        <h1 class="h-color">
+        <h1 class="title">
             Welcome to my website!
         </h1>
-    <div class="transparent">
         <IMG class="round30" SRC="./media/about-profilepic.jpg" alt="Profile Picture">
-    </div>
-
     <table>
         <tr>
             <th class="round10"><b>Name:</b></th>
@@ -38,6 +43,5 @@
         <p>
             This website was created for a class project with the purpose to show my knowledge in internet programming. At the same time I decided to add information about my self and a contact page for professional use.
         </p>
-
 </body>
 </html>
