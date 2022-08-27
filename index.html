@@ -5,11 +5,18 @@
 <head>
     <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Marco Acevedo</title>
-    <link id="pagestyle" rel="stylesheet" href="./styles/style2.css">
-    <script>
-    function swap(sheet){
-        document.getElementByID('pagestyle').setAttribute('href',sheet);
-    }
+    <link id="sheet" rel="stylesheet" href="./styles/style2.css" title="serious">
+    
+    <script type="text/javascript">
+
+        function change1(){
+           document.getElementById("sheet").href = "./styles/style1.css";
+        }
+
+        function change2(){
+            document.getElementById("sheet").href = "./styles/style2.css";
+        }
+
     </script>
 
 </head>
@@ -21,8 +28,8 @@
         <a href="./content/projects.html">Projects</a>
         <a href="./content/about.html">About</a>
         <a href="./content/contact.html">Contact</a>
-        <button onclick="swap('./styles/style1.css')">Switch Style1</button>
-        <button onclick="swap('./styles/style2.css')">Switch Style2</button>
+        <button onclick="change1()">Switch Style1</button>
+        <button onclick="change2()">Switch Style2</button>
     </nav>
     <!-- Navigation Menu -->
         <br />

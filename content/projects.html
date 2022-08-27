@@ -6,6 +6,17 @@
     <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Projects</title>
     <link rel="stylesheet" href="../styles/style2.css">
+    <script type="text/javascript">
+
+        function change1(){
+           document.getElementById("sheet").href = "../styles/style1.css";
+        }
+
+        function change2(){
+            document.getElementById("sheet").href = "../styles/style2.css";
+        }
+
+    </script>
 </head>
 
 <body class="m0">
@@ -16,6 +27,8 @@
         <a href="./projects.html">Projects</a>
         <a href="./about.html">About</a>
         <a href="./contact.html">Contact</a>
+        <button onclick="change1()">Switch Style1</button>
+        <button onclick="change2()">Switch Style2</button>
     </nav>
     <!-- Navigation Menu -->
 
