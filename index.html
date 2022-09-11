@@ -9,9 +9,13 @@
     <script type="text/javascript">
         function change1(){
            document.getElementById("sheet").href = "./styles/style1.css";
+           theme.pop();
+           theme.push(1);
         }
         function change2(){
             document.getElementById("sheet").href = "./styles/style2.css";
+            theme.pop();
+           theme.push(2);
         }
     </script>
 </head>
@@ -19,14 +23,16 @@
 <body class="m0">
     <!-- Navigation Menu -->
     <nav>
-        <a href="index.html">Home</a>
-        <a href="./content/projects.html">Projects</a>
+        <a href="./index.html">Home</a>
         <a href="./content/about.html">About</a>
+        <a href="./content/projects.html">Projects</a>
         <a href="./content/contact.html">Contact</a>
-        <button onclick="change1()">Switch Style1</button>
-        <button onclick="change2()">Switch Style2</button>
+        <a href="./content/quiz.html">Quiz</a>
+        <button onclick="change1()">Switch Style Dark</button>
+        <button onclick="change2()">Switch Style Color</button>
     </nav>
     <!-- Navigation Menu -->
+    
         <br />
         <h1 class="title">
             Welcome to my website!

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1" />
+    <title>About</title>
+    <link id="sheet" rel="stylesheet" href="../styles/style2.css">
+    <link id="quizsheet" rel="stylesheet" href="../styles/quizstyle.css">
+    <script type="text/javascript">
+      function change1(){
+         document.getElementById("sheet").href = "../styles/style1.css";
+      }
+      function change2(){
+          document.getElementById("sheet").href = "../styles/style2.css";
+      }
+  </script>
+</head>
+
+<body class="m0">
+  <script defer src="../scripts/quiz.js"></script>
+    <!-- Navigation Menu -->
+    <nav>
+        <a href="../index.html">Home</a>
+        <a href="./about.html">About</a>
+        <a href="./projects.html">Projects</a>
+        <a href="./contact.html">Contact</a>
+        <a href="./quiz.html">Quiz</a>
+        <button onclick="change1()">Switch Style Dark</button>
+        <button onclick="change2()">Switch Style Color</button>
+    </nav>
+    <!-- Navigation Menu -->
+
+    <!-- QUIZ Start -->
+    <h1 id="quiztitle"class="title">
+       Javascript Quizz
+    </h1>
+
+    <div class="" id="prequiz"> <!--  -->
+      <p id="prequiz_p1">Multiple Choice, no backtracking. Click Button below to Start</p></br>
+      <button id="start_button" onclick="quizStart()">Start Quizz</button>
+    </div>
+
+    <div class="" id="duringquiz">
+
+      <div id="quizDivCurrentScore">
+        DIV id=quizDivCurrentScore
+      </div>
+
+      <div id="quizDivCurrentQuestionDisplay">
+        DIV id=quizDivCurrentQuestionDisplay
+      </div>
+      </br>
+      <div id="quizDivChoices">
+      <!-- FORM START -->
+      <form id="quizForm" action="">
+        <div id="quizFormRadioButton_a">
+          <input type="radio" name="answer_choices" value="a" id="button_a" onclick="getAns(this.value)"> a.
+        </div>
+        <div id="quizFormRadioButton_b">
+          <input type="radio" name="answer_choices" value="b" id="button_b" onclick="getAns(this.value)"> b.
+        </div>
+        <div id="quizFormRadioButton_c">
+          <input type="radio" name="answer_choices" value="c" id="button_c" onclick="getAns(this.value)"> c.
+        </div>
+        <div id="quizFormRadioButton_d">
+          <input type="radio" name="answer_choices" value="d" id="button_d" onclick="getAns(this.value)"> d.
+        </div>
+        <button id="quizFormInputSubmit" type="button" onclick="confirmAns()">
+        Confirm Selection
+        </button>
+      </form>
+      <!-- FORM END -->
+      </div>
+
+    </div>
+
+    <div class="" id="afterquiz">
+      DIV id=afterquiz
+    </div>
+
+</body>
+</html>
