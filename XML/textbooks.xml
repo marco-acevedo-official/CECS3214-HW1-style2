@@ -1,0 +1,101 @@
+<?xml version = "1.0"?>
+
+<textbooks>
+
+<book>
+    <title>
+    Computer Organization and Design
+    </title>
+
+    <author>
+        <firstname>
+        David
+        </firstname>
+
+        <lastname>
+        Patterson
+        </lastname>
+    </author>
+
+        <author>
+        <firstname>
+        John
+        </firstname>
+
+        <lastname>
+        Hennessy
+        </lastname>
+    </author>
+
+    <publisher>
+        <name>
+        Morgan Kaufmann
+        </name>
+
+        <website>
+        https://www.elsevier.com/books-and-journals/morgan-kaufmann
+        </website>
+    </publisher>
+
+    <year>
+    2014
+    </year>
+
+    <isbn>
+    978-0-12-407726-3
+    </isbn>
+
+    <edition>
+    fifth
+    </edition>
+
+    <covertype>
+    digital
+    </covertype>
+
+</book>
+
+<book>
+    <title>
+    Calculus Early Transcendentals
+    </title>
+
+    <author>
+        <firstname>
+        James
+        </firstname>
+
+        <lastname>
+        Stewart
+        </lastname>
+    </author>
+
+    <publisher>
+        <name>
+            Cengage Learning
+        </name>
+
+        <website>
+            https://www.cengage.com/
+        </website>
+    </publisher>
+
+    <year>
+        2016
+    </year>
+
+    <isbn>
+        978-1-285-74155-0
+    </isbn>
+
+    <edition>
+        eigth
+    </edition>
+
+    <covertype>
+    digital
+    </covertype>
+
+</book>
+
+</textbooks>
