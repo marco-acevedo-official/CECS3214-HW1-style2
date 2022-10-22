@@ -1,101 +1,57 @@
-<?xml version = "1.0"?>
+<?xml version = "1.0" encoding="UTF-8"?>
+<!-- <?xml-stylesheet type="text/xml" href="textbook.xsl" version="2.0"?> -->
 
-<textbooks>
+<txtb:textbooks
+xmlns:txtb="https://marco-acevedo-official.github.io/CECS3214-HW1-style2/XML/textbook.xsd"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="https://marco-acevedo-official.github.io/CECS3214-HW1-style2/XML/textbook.xsd textbook.xsd"
+>
+<txtb:book>
+    <txtb:title>Computer Organization and Design</txtb:title>
 
-<book>
-    <title>
-    Computer Organization and Design
-    </title>
+    <txtb:author>
+        <txtb:firstname>David</txtb:firstname>
+        <txtb:lastname>Patterson</txtb:lastname>
+    </txtb:author>
 
-    <author>
-        <firstname>
-        David
-        </firstname>
+    <txtb:author>
+        <txtb:firstname>John</txtb:firstname>
+        <txtb:lastname>Hennessy</txtb:lastname>
+    </txtb:author>
 
-        <lastname>
-        Patterson
-        </lastname>
-    </author>
+    <txtb:publisher>
+        <txtb:name>Morgan Kaufmann</txtb:name>
+        <txtb:website>https://www.elsevier.com/books-and-journals/morgan-kaufmann</txtb:website>
+    </txtb:publisher>
 
-        <author>
-        <firstname>
-        John
-        </firstname>
+    <txtb:year>2014</txtb:year>
 
-        <lastname>
-        Hennessy
-        </lastname>
-    </author>
+    <txtb:isbn>978-0-12-407726-3</txtb:isbn>
 
-    <publisher>
-        <name>
-        Morgan Kaufmann
-        </name>
+    <txtb:edition>fifth</txtb:edition>
 
-        <website>
-        https://www.elsevier.com/books-and-journals/morgan-kaufmann
-        </website>
-    </publisher>
+    <txtb:covertype>digital</txtb:covertype>
+</txtb:book>
 
-    <year>
-    2014
-    </year>
+<txtb:book>
+    <txtb:title>Calculus Early Transcendentals</txtb:title>
 
-    <isbn>
-    978-0-12-407726-3
-    </isbn>
+    <txtb:author>
+        <txtb:firstname>James</txtb:firstname>
+        <txtb:lastname>Stewart</txtb:lastname>
+    </txtb:author>
 
-    <edition>
-    fifth
-    </edition>
+    <txtb:publisher>
+        <txtb:name>Cengage Learning</txtb:name>
+        <txtb:website>https://www.cengage.com/</txtb:website>
+    </txtb:publisher>
 
-    <covertype>
-    digital
-    </covertype>
+    <txtb:year>2016</txtb:year>
 
-</book>
+    <txtb:isbn>978-1-285-74155-0</txtb:isbn>
 
-<book>
-    <title>
-    Calculus Early Transcendentals
-    </title>
+    <txtb:edition>eigth</txtb:edition>
 
-    <author>
-        <firstname>
-        James
-        </firstname>
-
-        <lastname>
-        Stewart
-        </lastname>
-    </author>
-
-    <publisher>
-        <name>
-            Cengage Learning
-        </name>
-
-        <website>
-            https://www.cengage.com/
-        </website>
-    </publisher>
-
-    <year>
-        2016
-    </year>
-
-    <isbn>
-        978-1-285-74155-0
-    </isbn>
-
-    <edition>
-        eigth
-    </edition>
-
-    <covertype>
-    digital
-    </covertype>
-
-</book>
-
-</textbooks>
+    <txtb:covertype>digital</txtb:covertype>
+</txtb:book>
+</txtb:textbooks>

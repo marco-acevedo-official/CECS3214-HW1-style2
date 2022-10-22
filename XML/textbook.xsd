@@ -1,35 +1,43 @@
-<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
-  <xs:element name="textbooks">
-    <xs:complexType>
-      <xs:sequence>
-        <xs:element name="book" maxOccurs="unbounded" minOccurs="0">
-          <xs:complexType>
+
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<xsd:schema
+xmlns:xs="http://www.w3.org/2001/XMLSchema"
+targetNamespace="/.testbook.xsd"
+xmlns="https://marco-acevedo-official.github.io/CECS3214-HW1-style2/XML/textbook.xsd"
+elementFormDefault="qualified"
+attributeFormDefault="qualified"
+>
+    <xs:element name="textbooks">
+        <xs:complexType mixed="true">
             <xs:sequence>
-              <xs:element type="xs:string" name="title"/>
-              <xs:element name="author" maxOccurs="unbounded" minOccurs="0">
-                <xs:complexType>
-                  <xs:sequence>
-                    <xs:element type="xs:string" name="firstname"/>
-                    <xs:element type="xs:string" name="lastname"/>
-                  </xs:sequence>
-                </xs:complexType>
-              </xs:element>
-              <xs:element name="publisher">
-                <xs:complexType>
-                  <xs:sequence>
-                    <xs:element type="xs:string" name="name"/>
-                    <xs:element type="xs:string" name="website"/>
-                  </xs:sequence>
-                </xs:complexType>
-              </xs:element>
-              <xs:element type="xs:float" name="year"/>
-              <xs:element type="xs:string" name="isbn"/>
-              <xs:element type="xs:string" name="edition"/>
-              <xs:element type="xs:string" name="covertype"/>
+                <xs:element maxOccurs="unbounded" name="book">
+                    <xs:complexType mixed="true">
+                        <xs:sequence>
+                            <xs:element minOccurs="0" name="title" type="xs:string"/>
+                            <xs:element maxOccurs="unbounded" name="author">
+                                <xs:complexType mixed="true">
+                                    <xs:sequence>
+                                        <xs:element minOccurs="0" name="firstname" type="xs:normalizedString"/>
+                                        <xs:element minOccurs="0" name="lastname" type="xs:normalizedString"/>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element minOccurs="0" name="publisher">
+                                <xs:complexType mixed="true">
+                                    <xs:sequence>
+                                        <xs:element minOccurs="0" name="name" type="xs:string"/>
+                                        <xs:element minOccurs="0" name="website" type="xs:anyURI"/>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element minOccurs="0" name="year" type="xs:int"/>
+                            <xs:element minOccurs="0" name="isbn" type="xs:normalizedString"/>
+                            <xs:element minOccurs="0" name="edition" type="xs:normalizedString"/>
+                            <xs:element minOccurs="0" name="covertype" type="xs:normalizedString"/>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
             </xs:sequence>
-          </xs:complexType>
-        </xs:element>
-      </xs:sequence>
-    </xs:complexType>
-  </xs:element>
+        </xs:complexType>
+    </xs:element>
 </xs:schema>
