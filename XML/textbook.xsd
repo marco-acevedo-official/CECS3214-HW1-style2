@@ -2,7 +2,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <xsd:schema
 xmlns:xs="http://www.w3.org/2001/XMLSchema"
-targetNamespace="/.testbook.xsd"
+targetNamespace="/.textbook.xsd"
 xmlns="https://marco-acevedo-official.github.io/CECS3214-HW1-style2/XML/textbook.xsd"
 elementFormDefault="qualified"
 attributeFormDefault="qualified"
