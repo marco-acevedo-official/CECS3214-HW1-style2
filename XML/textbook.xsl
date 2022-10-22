@@ -3,7 +3,7 @@
 <xsl:template match="/">
 <html>
     <body>
-    <h1>Debuging 10</h1>
+    <h1>Debuging 11</h1>
         <table border="1">
             <tr>
                 <th>Title</th>
@@ -17,7 +17,7 @@
             <xsl:for-each select="textbooks/book">
                 <tr>
                     <td><xsl:value-of select="title"/></td>
-                    <td><xsl:value-of select="/author"/></td>
+                    <td><xsl:value-of select="author"/></td>
                     <td><xsl:value-of select="publisher"/></td>
                     <td><xsl:value-of select="year"/></td>
                     <td><xsl:value-of select="isbn"/></td>
