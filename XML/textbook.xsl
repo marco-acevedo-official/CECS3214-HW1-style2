@@ -1,12 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
 <xsl:stylesheet version="2.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
-
 <xsl:template match="/">
-
 <html>
     <body>
-    <h1>Debuging 02</h1>
+    <h1>Debuging 03</h1>
         <table border="1">
             <tr>
                 <th>Title</th>
@@ -31,8 +28,5 @@
         </table>
     </body>
 </html>
-
-
 </xsl:template>
-
 </xsl:stylesheet>
