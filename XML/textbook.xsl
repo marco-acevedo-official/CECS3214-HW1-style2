@@ -7,7 +7,7 @@
 <html>
     <body>
     <h1>TEST</h1>
-        <table>
+        <table border="1">
             <tr>
                 <th>Title</th>
                 <th>Author</th>
