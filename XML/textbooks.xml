@@ -2,9 +2,9 @@
 <?xml-stylesheet type="text/xsl" href="./textbook.xsl" version="2.0"?>
 
 <txtb:textbooks
-xmlns:txtb="https://marco-acevedo-official.github.io/CECS3214-HW1-style2/XML/textbook.xsd"
+xmlns:txtb="https://marco-acevedo-official.github.io/CECS3214-HW1-style2/xml/textbook.xsd"
 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-xsi:schemaLocation="https://marco-acevedo-official.github.io/CECS3214-HW1-style2/XML/textbook.xsd textbook.xsd"
+xsi:schemaLocation="https://marco-acevedo-official.github.io/CECS3214-HW1-style2/xml/textbook.xsd textbook.xsd"
 >
 <txtb:book>
     <txtb:title>Computer Organization and Design</txtb:title>
