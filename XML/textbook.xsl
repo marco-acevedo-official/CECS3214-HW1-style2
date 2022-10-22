@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8">
+<?xml version="1.0" encoding="UTF-8"?>
 
 <xsl:stylesheet version="2.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 
@@ -17,7 +17,6 @@
                 <th>Edition</th>
                 <th>CoverType</th>
             </tr>
-
             <xsl:for-each select="textbooks/book">
                 <tr>
                     <td><xsl:value-of select="title"/></td>
@@ -29,12 +28,11 @@
                     <td><xsl:value-of select="covertype"/></td>
                 </tr>
             </xsl:for-each>
-
         </table>
     </body>
 </html>
 
 
-</template>
+</xsl:template>
 
 </xsl:stylesheet>
