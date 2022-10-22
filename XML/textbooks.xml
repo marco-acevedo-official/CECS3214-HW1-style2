@@ -1,5 +1,5 @@
 <?xml version = "1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xml" href="textbook.xsl" version="2.0"?>
+<?xml-stylesheet type="text/xsl" href="textbook.xsl" version="2.0"?>
 
 <txtb:textbooks
 xmlns:txtb="https://marco-acevedo-official.github.io/CECS3214-HW1-style2/XML/textbook.xsd"
