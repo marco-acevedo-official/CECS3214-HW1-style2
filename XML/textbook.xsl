@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet version="2.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
-<xsl:template match="/textbooks">
+<xsl:template match="/">
 <html>
     <body>
-    <h1>Debuging 08</h1>
+    <h1>Debuging 09</h1>
         <table border="1">
             <tr>
                 <th>Title</th>
@@ -14,9 +14,9 @@
                 <th>Edition</th>
                 <th>CoverType</th>
             </tr>
-            <xsl:for-each select="book">
+            <xsl:for-each select="textbooks/book">
                 <tr>
-                    <td><xsl:value-of select="title"/></td>
+                    <td><xsl:value-of select="/title"/></td>
                     <td><xsl:value-of select="author"/></td>
                     <td><xsl:value-of select="publisher"/></td>
                     <td><xsl:value-of select="year"/></td>
