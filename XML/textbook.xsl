@@ -6,7 +6,7 @@
 
 <html>
     <body>
-    <h1>TEST</h1>
+    <h1>Debuging 01</h1>
         <table border="1">
             <tr>
                 <th>Title</th>
@@ -17,7 +17,7 @@
                 <th>Edition</th>
                 <th>CoverType</th>
             </tr>
-            <xsl:for-each select="textbooks/book">
+            <xsl:for-each select="book">
                 <tr>
                     <td><xsl:value-of select="title"/></td>
                     <td><xsl:value-of select="author"/></td>
